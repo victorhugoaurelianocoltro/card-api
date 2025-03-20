@@ -1,0 +1,138 @@
+:root{ 
+    --cor-hover: white;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+
+.menu li{
+   display: flex;
+   gap: 4px;
+   align-items: center;
+   padding: 4px 8px;
+   transition: .5s;
+}
+
+.menu li:hover{
+    background-color: red;
+}
+
+.menu img{
+    height: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    padding: 73px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+
+.image-placeholder {
+    width: 100%;
+    height: 330px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    
+}
+
+.price {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 13px 0;
+}
+
+.sizes {
+    margin: 10px 0;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.color-option {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 2px solid #000;
+}
+
+.black { background: black; }
+.yellow { background: yellow; }
+.blue { background: rgb(26, 61, 255); border: 2px solid #2125ff; }
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.star {
+    color: gold;
+    font-size: 18px;
+    margin-right: 2px;
+}
+
+.button {
+    background: yellow;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+   top: -200px;
+}
+
+
+p1{
+    position: relative;
+    top: -280px;
+    font-size: 20px;
+    margin-left: auto;
+    left: -1700px;
+}
